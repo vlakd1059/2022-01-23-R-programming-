@@ -63,23 +63,23 @@ v_eng=c(8,76,69,18,82,56,48,14,73,83)
 v_math=c(65,27,100,76,37,77,73,19,74,60)
 # 1)
 score=data.frame(v_no,v_name,v_kor,v_eng,v_math)
-score
-View(score)
+score 
+View(score) 
 # 2)
-v_kor
+v_kor 
 # 3)
-v_eng
+v_eng 
 # 4)
 nrow(score)
-# 5)
+# 5) 
 ncol(score)
-# 6)
+# 6) 
 names(score)
-# 7)
+# 7) 
 round(mean(score$v_kor), digits = 1) #round : 소수점까지 출력
 # 8)
 max(score$v_eng)
-# 9)
+# 9) 
 min(score$v_math)
 
 ###데이터 분석/시각화
