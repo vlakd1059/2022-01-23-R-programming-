@@ -5,7 +5,7 @@ vec1 = c(10,20,30,40,50)
 vec1
 vec2 = c("사과",100,TRUE) # 문자열이 우선순위 젤 높음-> 하나라도 문자가 포함되면 다 문자로 변환
 vec2
-vec3 = c(100.3,33,TRUE,FALSE)
+vec3 = c(100.3,33,TRUE,FALSE)                 
 vec3
 
 v_no=seq(1:7)
