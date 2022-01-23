@@ -91,10 +91,10 @@ list.files()
 
 # 엑셀 데이터파일을 읽을 수 잇는 함수들이 모여있는 패키지 다운받기
 install.packages("readxl")
-
+  
 # 패키지를 로딩하여 사용하기 = import
 library(readxl)
-
+    
 # 함수를 사용하여 파일 불러오기
 score=read_excel("score.xlsx")
 score
